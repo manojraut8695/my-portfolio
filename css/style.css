@@ -14019,6 +14019,9 @@ textarea.form-control {
 .CARD {
   margin: 10px;
   color: white;
+  width: 230px;
+  height: 140px;
+  padding: 15px;
 }
 
 /* social icon style */
@@ -14164,8 +14167,37 @@ textarea.form-control {
   .slider-text .sub-bread{
     font-size: 20px;
   }
+  .CARD{
+    padding: 0;
+    width: 150px;
+    height: 100px;
+  }
+  .CARD .socicon{
+    font-size: 16px;
+    margin: 0;
+  }
+  .card-text{
+    font-size: 12px;
+  }
+  .card-title{
+    margin: 0;
+  }
 }
 
+@media (min-width: 0px) and (max-width: 380px) {
+  .CARD{
+    width: 120px;
+    height: 80px;
+  }
+  .CARD .socicon{
+    font-size: 14px;
+    margin: 0;
+  }
+  .card-text{
+    font-size: 10px;
+    margin-top: -5px;
+  }
+}
 @media (min-width: 540px) and (max-width: 768px) {
   .wrapper .button {
     height: 45px;
@@ -14263,7 +14295,9 @@ textarea.form-control {
   border: 2px solid var(--red);
 }
 
-
+.skill-media .col-md-6 p{
+  font-size: 15px;
+}
 
 /* media 280 */
 @media (min-width: 0px) and (max-width: 500px) {
@@ -14282,6 +14316,12 @@ textarea.form-control {
   }
   .slider-text .sub-bread{
     font-size: 16px;
+  }
+  .skill-media .col-md-6 p{
+    font-size: 12px;
+  }
+  .ftco-about ul.about-info {
+    font-size: 12px;
   }
 }
 
@@ -14433,10 +14473,6 @@ html {
 .pbttn span,
 .cbttn span {
   font-size: 16px;
-}
-
-.skill-media .col-md-6 p{
-  font-size: 15px;
 }
 
 /* blogs.html */
